@@ -15,8 +15,8 @@ exports.onRenderBody = function (_ref) {
 	options = Object.assign({
 		apiKey: process.env.GATSBY_SNIPCART_API_KEY,
 		autopop: false,
-		js: 'https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js',
-		styles: 'https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css',
+		js: 'https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js',
+		styles: 'https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.css',
 	}, options);
 
 	if (!options.apiKey) {
